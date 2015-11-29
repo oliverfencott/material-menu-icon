@@ -1,0 +1,23 @@
+{
+  "name": "material-menu-icon",
+  "version": "0.0.1",
+  "description": "Material design menu icon animations for React",
+  "main": "lib",
+  "scripts": {
+    "dev": "babel --presets es2015,react --watch src/ --out-dir lib/",
+    "prepublish": "babel --presets es2015,react src/ --out-dir lib/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oliverfencott/material-menu-icon.git"
+  },
+  "author": "Oliver Fencott <oliverfencott@gmail.com> (http://fencott.io)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/oliverfencott/material-menu-icon/issues"
+  },
+  "dependencies": {
+    "react": "^0.13.3"
+  },
+  "homepage": "https://github.com/oliverfencott/material-menu-icon#readme"
+}
